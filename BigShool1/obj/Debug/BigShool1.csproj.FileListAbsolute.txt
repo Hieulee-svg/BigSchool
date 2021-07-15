@@ -446,4 +446,3 @@ C:\Users\Hieu\OneDrive\Desktop\BigSchool\BigShool1\bin\Microsoft.Owin.Security.M
 C:\Users\Hieu\OneDrive\Desktop\BigSchool\BigShool1\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Hieu\OneDrive\Desktop\BigSchool\BigShool1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Hieu\OneDrive\Desktop\BigSchool\BigShool1\obj\Debug\BigShool1.csproj.CopyComplete
-C:\Users\Hieu\OneDrive\Desktop\BigSchool\BigShool1\obj\Debug\BigShool1.csproj.AssemblyReference.cache

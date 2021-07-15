@@ -17,8 +17,8 @@ namespace BigShool1.Controllers
             var userID = User.Identity.GetUserId();
             if (userID == null)
                 return BadRequest("Please login first!");
-            if (userID == follow.FolloweeId) 
-                return BadRequest("Can not follow myself!");
+            if (userID == follow.FolloweeId)
+                return Ok("error");
 
             BigSchoolContext context = new BigSchoolContext();
             Following find = context.Followings.FirstOrDefault(p => p.FollowerId == userID && p.FolloweeId == follow.FolloweeId);

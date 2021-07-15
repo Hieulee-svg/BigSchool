@@ -78,7 +78,6 @@
                                     .addClass("btn-info")
                                     .text("Going");
                             }
-
                         }).fail(function () {
                             alert("Something fail");
                         });
@@ -97,7 +96,7 @@
                                     }
                                 });
                                 alert("unFollow sucessfully")
-                            } else {
+                            } else if(result != "cancel" && result != "error") {
                                 $('.js-tongle-follow').each(function (i, obj) {
                                     if ($(this).attr('data-user-id') == followee) {
                                         $(this).removeClass("btn-default")
@@ -106,9 +105,16 @@
                                     }
                                 });
                                 alert("Follow sucessfully")
+                            }else if(result == "error") {
+                               
+                                alert("Can not follow myself!!")
                             }
+
+
                         }).fail(function () {
-                            alert("Something fail");
+                           
+                                alert("Something fail!")
+                            
                         });
                 });
             });
